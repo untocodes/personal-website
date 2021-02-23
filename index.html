@@ -1,0 +1,43 @@
+<html id="untok_main">
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="css/main.css">
+        <script>
+            function toggleTheme() {
+                if(document.getElementById("untok_main").classList.contains("light")) {
+                    document.getElementById("untok_main").classList.remove("light");
+                } else {
+                    document.getElementById("untok_main").classList.add("light");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="content">
+            <p class="mini_title"> Who? </p>
+            <h1> Unto Karjalainen </h1>
+            <p> Software Developer - Web-Designer</p>
+            <p class="desc">  Experienced Software Developer from Turku,Finland with a passion for Web-Design.</p>
+            <p class="mini_title"> Where? </p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/unto-karjalainen-8965b5161/" class="button"><i class="fab fa-linkedin-in"></i>
+                &nbsp;LinkedIn</a>
+    
+                <a href="https://github.com/untocodes/" class="button"><i class="fab
+                fa-github"></i>&nbsp;GitHub</a>
+                <a href="mailto:unto@untok.fi" class="button"><i class="fa
+                fa-envelope"></i>&nbsp;Email </a>
+                
+            </div>
+
+        </div>
+        <div class="top_menu">
+            <a href="/">Home</a> / <a href="/blog/">Blog</a> / <a href="/cv">CV</a>
+        </div>
+        <div onclick="toggleTheme()" class="theme_toggle">
+            <i class="fas fa-lightbulb"></i>
+        </div>
+        
+    </body>
+</html>

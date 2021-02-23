@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Gidole;
+    src: url("GidoleFont/Gidole-Regular.ttf");
+  }
+html {
+    --primary: black;
+    --secondary: white;
+    
+}
+html.light {
+    --primary: white;
+    --secondary: black;
+}
+  
+body {
+    font-family: 'Gidole';
+    background-color : var(--primary);
+    color: var(--secondary);
+    
+}
+* {
+    transition: background-color 1000ms linear;
+}
+.bottom_dec ul {
+    margin: 0.8%;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+    .content {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content h1 {
+    margin-top: 0;
+    font-size: 3rem;
+    margin-bottom: 0;
+
+}
+.content p {
+    font-size: 1.5rem;
+    margin-top: 0;
+    
+}
+.button {
+    padding: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
+    transition: box-shadow 1s, background-color 1000ms linear !important;
+    color: var(--secondary);
+    text-decoration: none;
+    display: inline-block;
+}
+.button:hover {
+    box-shadow: 5px 8px var(--secondary);
+
+}
+.button:active {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+.mini_title {
+    border-bottom: 2px solid var(--secondary);
+    width: max-content;
+}
+.desc {
+    max-width: 60%;
+}
+.top_menu {
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin: 2%;
+    color: var(--secondary);
+    font-size: 1.2rem;
+}
+.top_menu a {
+    border-bottom: 2px solid var(--secondary);
+    border-width: 0px;
+    text-decoration: none;
+    color: var(--secondary);
+    transition: 0.1s linear border-width, background-color 1000ms linear !important;
+}
+.top_menu a:hover {
+    border-width: 2px;
+    transition: 0.1s linear border-width, background-color 1000ms linear !important;
+}
+.theme_toggle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 2%;
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 1%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .button {
+        width: 80%;
+    }
+    .theme_toggle {
+        padding: 4%;
+        margin: 4%;
+    }
+    .top_menu {
+        margin: 4%;
+    }
+}
