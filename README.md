@@ -1,7 +1,7 @@
 # personal-website
 Personal website made by me (Unto Karjalainen) for myself.
 
-Hosted at https://untok.fi
+Available over at https://untok.fi
 
 # Licensing
 This code is licensed under the GNU General Public License v3.0 expect the Godile Font which is licensed under the SIL OPEN FONT LICENSE.
