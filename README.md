@@ -1,4 +1,8 @@
+
 # personal-website
+![Discord](https://img.shields.io/discord/416987984580313088?color=%237289DA&label=Discord&style=for-the-badge)
+[![GitHub stars](https://img.shields.io/github/stars/untocodes/personal-website?color=yellow&style=for-the-badge)](https://github.com/untocodes/personal-website/stargazers) [![GitHub license](https://img.shields.io/github/license/untocodes/personal-website?style=for-the-badge)](https://github.com/untocodes/personal-website/blob/master/LICENSE)
+
 Personal website made by me (Unto Karjalainen) for myself.
 
 Available over at https://untok.fi
