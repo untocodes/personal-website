@@ -5,7 +5,6 @@
 html {
     --primary: black;
     --secondary: white;
-    
 }
 html.light {
     --primary: white;
@@ -27,23 +26,33 @@ body {
     list-style: none;
     float: right;
 }
-    .content {
+.content {
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
     margin-left: 10%;
     margin-right: 10%;
 }
+.content.cv {
+    top: unset;
+    transform: unset;
+    position: relative;
+    margin: 10em 10%;
+}
 .content h1 {
     margin-top: 0;
-    font-size: 3rem;
+    font-size: 3em;
     margin-bottom: 0;
 
 }
 .content p {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin-top: 0;
+    max-width: 600px;
     
+}
+.content .desc {
+    font-size: 1.25em;
 }
 .button {
     padding: 0.5rem;
@@ -59,6 +68,9 @@ body {
     text-decoration: none;
     display: inline-block;
 }
+.button i {
+    margin-right: 0.5em;
+}
 .button:hover {
     box-shadow: 5px 8px var(--secondary);
 
@@ -66,6 +78,12 @@ body {
 .button:active {
     background-color: var(--secondary);
     color: var(--primary);
+}
+.big_title {
+    border-bottom: 3px solid var(--secondary);
+    width: max-content;
+    font-size: 2em !important;
+    margin-bottom: 1em;
 }
 .mini_title {
     border-bottom: 2px solid var(--secondary);
@@ -94,7 +112,7 @@ body {
     transition: 0.1s linear border-width, background-color 1000ms linear !important;
 }
 .theme_toggle {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     margin: 2%;
@@ -103,10 +121,49 @@ body {
     padding: 1%;
     border-radius: 50%;
     cursor: pointer;
+    transition: 0.5s ease-in-out all;
+
+}
+.theme_toggle:hover {
+    background-color: var(--primary);
+    color: var(--secondary);
+    transition: 0.5s ease-in-out all;
+}
+.listing {
+    border-left: 3px solid var(--secondary);
+    padding-left: 1em;
+    max-width: 400px;
+    line-height: 1.5;
+
+}
+.listing p {
+    font-size: 1em;
+}
+p.title {
+    font-size: 1.25em;
+    margin-bottom: 0;
+}
+.contact_details {
+    list-style: none;
+    padding-left: 0;
+}
+.contact_details li {
+    display: inline-block;
+    padding-right: 1em;
+}
+.contact_details li a {
+    font-size: 1.25em;
+    font-style: none;
+    text-decoration: none;
+    color: var(--secondary);
+}
+.contact_details li * i {
+    padding-right: 0.25em;
 }
 @media only screen and (max-width: 600px) {
     .button {
         width: 80%;
+        text-align: center;
     }
     .theme_toggle {
         padding: 4%;
