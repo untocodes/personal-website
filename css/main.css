@@ -153,6 +153,7 @@ p.title {
 .contact_details li {
     display: inline-block;
     padding-right: 1em;
+    padding-bottom: 0.5em;
 }
 .contact_details li a {
     font-size: 1.25em;
@@ -166,10 +167,11 @@ p.title {
 @media only screen and (max-width: 600px) {
     .button {
         width: 100%;
-        text-align: center;
+        text-align: center !important;
         position: relative;
-        padding-left: 0.5em 0;
+        padding: 0.5em 0 !important;
         text-align: center;
+        margin-bottom: 1em;
     }
     .theme_toggle {
         padding: 4%;
