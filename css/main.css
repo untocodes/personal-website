@@ -54,6 +54,9 @@ body {
 .content .desc {
     font-size: 1.25em;
 }
+.content .desc br {
+    margin-bottom: 1em;
+}
 .button {
     padding: 0.5rem;
     padding-right: 1rem;
@@ -162,7 +165,10 @@ p.title {
 }
 @media only screen and (max-width: 600px) {
     .button {
-        width: 80%;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        padding-left: 0.5em 0;
         text-align: center;
     }
     .theme_toggle {
