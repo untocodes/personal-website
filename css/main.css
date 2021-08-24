@@ -55,7 +55,7 @@ body {
     font-size: 1.25em;
 }
 .content.cv .desc br {
-    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
 .button {
     padding: 0.5rem;
