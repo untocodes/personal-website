@@ -91,6 +91,7 @@ body {
 .mini_title {
     border-bottom: 2px solid var(--secondary);
     width: max-content;
+    padding-top: 1em;
 }
 .desc {
     max-width: 60%;
