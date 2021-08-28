@@ -164,6 +164,19 @@ p.title {
 .contact_details li * i {
     padding-right: 0.25em;
 }
+.tech_list p {
+    font-weight: bold;
+}
+.tech_list ul {
+    list-style: none;
+    font-size: 2em;
+    padding-left: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.tech_list ul li {
+    display: inline-block;
+}
 @media only screen and (max-width: 600px) {
     .button {
         width: 100%;
