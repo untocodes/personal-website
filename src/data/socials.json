@@ -1,19 +1,19 @@
 [
     {
         "name": "Linkedin",
-        "url": "",
+        "url": "https://www.linkedin.com/in/unto-karjalainen/",
         "fontawesome_pack": "fab",
         "fontawesome_icon": "linkedin"
     },
     {
         "name": "GitHub",
-        "url": "",
+        "url": "https://github.com/untocodes/",
         "fontawesome_pack": "fab",
         "fontawesome_icon": "github"
     },
     {
         "name": "Email",
-        "url": "",
+        "url": "mailto:unto@untok.fi",
         "fontawesome_pack": "fas",
         "fontawesome_icon": "envelope"
     }
