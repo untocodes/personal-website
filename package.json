@@ -20,7 +20,6 @@
     "gatsby": "^4.2.0",
     "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-sass": "^5.2.0",
-    "gatsby-remark-highlight-code": "^3.0.2",
     "gatsby-remark-highlights": "^1.3.4",
     "gatsby-source-filesystem": "^4.2.0",
     "gatsby-transformer-remark": "^5.2.0",
