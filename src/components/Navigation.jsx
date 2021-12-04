@@ -10,9 +10,6 @@ const Navigation = (props) => (
       <div className={styles.navLink}>
           <Link to="/cv/">CV</Link>
       </div>
-      <div className={styles.navLink}>
-          <Link to="/blog/">Blog</Link>
-      </div>
   </div>
 );
 export default Navigation;
