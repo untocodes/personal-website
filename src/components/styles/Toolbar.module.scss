@@ -1,0 +1,37 @@
+@import "../../styles/variables.scss";
+
+.toolbar {
+    position: fixed;
+    bottom: 0;
+    padding-right: 5%;
+    right: 0;
+    @media all and (max-width: $max-width-mobile) {
+        & {
+            padding-right: 0;
+        }
+    }
+}
+.toolbarButton {
+    box-sizing: content-box;
+    display: inline-block;
+    margin-left: 1em;
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    &:hover, &:active, &:focus {
+        background-color: var(--primary);
+        color: var(--secondary);
+        cursor: pointer;
+    }
+    @media all and (max-width: $max-width-mobile) {
+        & {
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 10px;
+            display: block;
+            margin-bottom: 1em;
+
+        }
+    }
+}

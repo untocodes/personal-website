@@ -1,0 +1,98 @@
+{
+    "webdev": {
+        "title": "Web development",
+        "skills": [
+            {
+                "icon": "devicon-html5-plain",
+                "desc": "HTML5"
+            },
+            {
+                "icon": "devicon-javascript-plain",
+                "desc": "Javascript"
+            },
+            {
+                "icon": "devicon-php-plain",
+                "desc": "PHP"
+            },
+            {
+                "icon": "devicon-css3-plain",
+                "desc": "CSS"
+            },
+            {
+                "icon": "devicon-sass-plain",
+                "desc": "Sass/SCSS"
+            },
+            {
+                "icon": "devicon-wordpress-plain",
+                "desc": "Wordpress"
+            },
+            {
+                "icon": "devicon-nodejs-plain",
+                "desc": "Node.js"
+            },
+            {
+                "icon": "devicon-react-plain",
+                "desc": "React.js"
+            },
+            {
+                "icon": "devicon-nextjs-plain",
+                "desc": "Next.js"
+            },
+            {
+                "icon": "devicon-gatsby-plain",
+                "desc": "Gatsby"
+            },
+            {
+                "icon": "devicon-svelte-plain",
+                "desc": "Svelte"
+            }
+        ]
+    },
+    "devops": {
+        "title": "IT and Infrastructure",
+        "skills": [
+            {
+                "icon": "devicon-linux-plain",
+                "desc": "Linux"
+            },
+            {
+                "icon": "devicon-debian-plain",
+                "desc": "Debian"
+            },
+            {
+                "icon": "devicon-vagrant-plain",
+                "desc": "Vagrant"
+            },
+            {
+                "icon": "devicon-apache-plain",
+                "desc": "Apache"
+            },
+            {
+                "icon": "devicon-git-plain",
+                "desc": "Git"
+            },
+            {
+                "icon": "devicon-mysql-plain",
+                "desc": "MySQL/MariaDB"
+            }
+        ]
+    },
+    "dev": {
+        "title": "Software Development",
+        "skills": [
+            {
+                "icon": "devicon-c-plain",
+                "desc": "C"
+            },
+            {
+                "icon": "devicon-java-plain",
+                "desc": "Java"
+            },
+            {
+                "icon": "devicon-csharp-plain",
+                "desc": "C#"
+            }
+        ]
+    }
+
+}

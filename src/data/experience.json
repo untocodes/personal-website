@@ -1,0 +1,59 @@
+{
+    "professional": {
+        "title": "Professional Experience",
+        "positions": [
+            {
+                "time": "January 2021 -> Current",
+                "company": "Louhos Digital",
+                "position": "Software-Developer",
+                "description": "Creating customized B2B and B2C e-commerce solutions, websites and integrations.\nManaging company IT-infrastructure and improving the existing development toolchains."
+            },
+            {
+                "time": "June 2018 -> June 2020",
+                "company": "Elektroniikkapalvelu Unto Karjalainen",
+                "position": "Repair Technician and IT-Support",
+                "description": "Repairing a range of electronic devices and providing tech support to the local area.Repairing a range of electronic devices and providing tech support to the local area."
+            }
+        ]
+    },
+    "studies": {
+        "title": "Studies",
+        "positions": [
+            {
+                "time": "August 2021 -> Current",
+                "company": "University of Jyväskylä",
+                "position": "BSc + MSc Mathematical Infomation Technology",
+                "description": ""
+            },
+            {
+                "time": "August 2020 -> June 2021",
+                "company": "Turku Vocational Institute",
+                "position": " Vocational Secondary Qualification in Information Technology (unfinished)",
+                "description": ""
+            }
+        ]
+    },
+    "lang": {
+        "title": "Languages",
+        "positions": [
+            {
+                "time": "",
+                "company": "Finnish",
+                "position": "Native proficiency",
+                "description": ""
+            },
+            {
+                "time": "",
+                "company": "English",
+                "position": " Professional working proficiency",
+                "description": ""
+            },
+            {
+                "time": "",
+                "company": "German",
+                "position": "Basics",
+                "description": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://untok.fi/sitemap/sitemap-index.xml

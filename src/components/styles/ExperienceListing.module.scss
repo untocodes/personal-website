@@ -1,0 +1,19 @@
+.experienceListing {
+    border-left: 3px solid var(--secondary);
+    padding-left: 1em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    h3 {
+        font-size: 1.25em !important;
+    }
+    time,p {
+        font-size: 1em !important;
+    }
+    p {
+        margin: 0.5em 0;
+    }
+    * {
+        margin-bottom:0;
+        margin-top: 0;
+    }
+}

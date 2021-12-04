@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Linkedin",
+        "url": "",
+        "fontawesome_pack": "fab",
+        "fontawesome_icon": "linkedin"
+    },
+    {
+        "name": "GitHub",
+        "url": "",
+        "fontawesome_pack": "fab",
+        "fontawesome_icon": "github"
+    },
+    {
+        "name": "Email",
+        "url": "",
+        "fontawesome_pack": "fas",
+        "fontawesome_icon": "envelope"
+    }
+]

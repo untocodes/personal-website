@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    align-content: end;
+    justify-content: right;
+    margin: 5%;
+    font-size: 1.25em;
+}
+.navLink {
+    display: inline;
+    
+    a {
+        margin: 0.5em;
+        text-decoration: none;
+        padding-bottom: 2px;
+        &:hover, &:active, &:focus {
+            border-bottom: 1px solid var(--secondary);
+            transition: 300ms;
+        }
+        transition: 300ms;
+    }
+    &::after {
+        content: '/';
+        font-weight: bold;
+    }
+    &:last-child a {
+        margin-right: 0;
+    }
+    &:last-child::after {
+        content: '';
+    }
+
+}
+.current {
+    border-bottom: 1px solid var(--secondary);
+}
