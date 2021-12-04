@@ -19,7 +19,6 @@ const Index = (props) => (
         <meta name="description" content="Software-Developer, Web-Designer and hardware tinkerer from Jyväskylä, Finland."/>
         <meta name="keywords" content="Unto,Karjalainen,Unto
         Karjalainen,Jyväskylä,Finland,Software-Developer"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="author" content="Unto Karjalainen"/>
         <meta property="og:title" content="Unto Karjalainen"></meta>
         <meta property="og:type" content="website"></meta>
