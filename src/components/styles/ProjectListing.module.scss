@@ -1,0 +1,16 @@
+.ProjectListing {
+    border-left: 3px solid var(--secondary);
+    padding: 0 1em;
+    margin-bottom: 2em;
+    img {
+        width: 20em;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    p {
+        font-size: 1.1em !important;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}
