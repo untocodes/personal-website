@@ -1,0 +1,40 @@
+[
+    {
+        "name": "repair.wiki",
+        "desc": "Creating a place for anyone to share and obtain information related to repairing all kinds of electronic devices. (From smartphones to medical equipment).\nMy role has mainly consisted of creating and maintaining the wiki infrastructure, programming plugins and creating different tools to aid the further development.",
+        "image": "projects/repairwiki.png",
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://repair.wiki/",
+                "fontawesome_pack": "fas",
+                "fontawesome_icon": "globe"
+            },
+            {
+                "title": "Github",
+                "url": "https://github.com/repair-manual/",
+                "fontawesome_pack": "fab",
+                "fontawesome_icon": "github"
+            }
+        ]
+    },
+    {
+        "name": "Discord Boats",
+        "desc": "List of chat bots for the Discord chat platform with over 100 thousand users. Used by developers to grow their Discord Bots and users to find a Discord Bot for their chat guild.\n\nDonated over $4000 from advertisement revenues to different charities (among them RED.org and BLM)",
+        "image": "projects/dboats.png",
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://repair.wiki",
+                "fontawesome_pack": "fas",
+                "fontawesome_icon": "globe"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/DiscordBoats",
+                "fontawesome_pack": "fab",
+                "fontawesome_icon": "github"
+            }
+        ]
+    }
+]

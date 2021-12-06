@@ -8,6 +8,9 @@ const Navigation = (props) => (
           <Link to="/">Home</Link>
       </div>
       <div className={styles.navLink}>
+          <Link to="/projects">Projects</Link>
+      </div>
+      <div className={styles.navLink}>
           <Link to="/cv/">CV</Link>
       </div>
   </div>
