@@ -13,7 +13,7 @@ const ProjectListing = (props) => {
             node {
               relativePath
               childImageSharp {
-                gatsbyImageData
+                gatsbyImageData(width: 500)
               }
             }
           }
