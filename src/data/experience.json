@@ -3,7 +3,13 @@
         "title": "Professional Experience",
         "positions": [
             {
-                "time": "January 2021 -> Current",
+                "time": "February 2022 ->",
+                "company": "Swappie Oy",
+                "position": "Software Engineer",
+                "description": "Full-stack/DevOps/Integrations"
+            },
+            {
+                "time": "January 2021 -> February 2022",
                 "company": "Louhos Digital",
                 "position": "Software-Developer",
                 "description": "Creating customized B2B and B2C e-commerce solutions, websites and integrations.\nManaging company IT-infrastructure and improving the existing development toolchains."
@@ -20,7 +26,7 @@
         "title": "Studies",
         "positions": [
             {
-                "time": "August 2021 -> Current",
+                "time": "August 2021 ->",
                 "company": "University of Jyväskylä",
                 "position": "BSc + MSc Mathematical Infomation Technology",
                 "description": ""

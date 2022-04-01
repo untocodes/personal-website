@@ -35,6 +35,10 @@
                 "desc": "React.js"
             },
             {
+                "icon": "devicon-nestjs-plain",
+                "desc": "Nest.js"
+            },
+            {
                 "icon": "devicon-nextjs-plain",
                 "desc": "Next.js"
             },
@@ -74,6 +78,10 @@
             {
                 "icon": "devicon-mysql-plain",
                 "desc": "MySQL/MariaDB"
+            },
+            {
+                "icon": "devicon-datadog-plain",
+                "desc": "Datadog"
             }
         ]
     },

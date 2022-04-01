@@ -20,21 +20,9 @@
     },
     {
         "name": "Discord Boats",
-        "desc": "List of chat bots for the Discord chat platform with over 100 thousand users. Used by developers to grow their Discord Bots and users to find a Discord Bot for their chat guild.\n\nDonated over $4000 from advertisement revenues to different charities (among them RED.org and BLM)",
+        "desc": "List of chat bots for the Discord chat platform with over 100 thousand users. Used by developers to grow their Discord Bots and users to find a Discord Bot for their chat guild.\n\nDonated over $4000 from advertisement revenues to different charities (among them RED.org and BLM)\nDefunct since February 2022",
         "image": "projects/dboats.png",
         "links": [
-            {
-                "title": "Website",
-                "url": "https://discord.boats",
-                "fontawesome_pack": "fas",
-                "fontawesome_icon": "globe"
-            },
-            {
-                "title": "GitHub",
-                "url": "https://github.com/DiscordBoats",
-                "fontawesome_pack": "fab",
-                "fontawesome_icon": "github"
-            }
         ]
     }
 ]
